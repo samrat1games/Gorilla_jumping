@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gorilla Jumping</title>
+<meta name="description" content="Gorilla Jumping — VR про гориллу на обычном телефоне. Скачать APK.">
+<meta property="og:title" content="Gorilla Jumping">
+<meta property="og:description" content="VR про гориллу на обычном телефоне: ходишь и прыгаешь на руках.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦍</text></svg>">
+<style>
+  :root {
+    --bg: #101214;
+    --text: #f2f3f4;
+    --dim: #9ba2a8;
+    --line: #2a2f34;
+    --accent: #5db447;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #fff; --text: #14171a; --dim: #656d75; --line: #e2e5e8; --accent: #2f8f1c; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+    display: flex; align-items: center; justify-content: center; padding: 40px 20px;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { width: 100%; max-width: 420px; }
+  h1 { font-size: 32px; letter-spacing: -.02em; margin: 0 0 6px; }
+  .lead { color: var(--dim); margin: 0 0 28px; }
+  a.btn {
+    display: block; padding: 16px 20px; margin-bottom: 12px; border-radius: 12px;
+    text-decoration: none; text-align: center; font-weight: 600;
+    background: var(--accent); color: #fff; border: 1px solid transparent;
+  }
+  a.btn.second { background: transparent; color: var(--text); border-color: var(--line); }
+  a.btn:hover { filter: brightness(1.07); }
+  a.btn small { display: block; font-weight: 400; font-size: 13px; opacity: .75; margin-top: 2px; }
+  .meta { color: var(--dim); font-size: 13px; margin-top: 24px; }
+  .meta a { color: var(--dim); }
+  .meta p { margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gorilla Jumping</h1>
+  <p class="lead">VR про гориллу на обычном телефоне: ходишь и прыгаешь на руках.</p>
+
+  <a class="btn" href="https://github.com/samrat1games/Gorilla_jumping/releases/latest/download/Gorilla_jumping.apk">
+    Скачать<small>APK · 122 МБ</small>
+  </a>
+
+  <a class="btn second" href="https://github.com/samrat1games/Gorilla_jumping/releases/latest/download/Gorilla_prygaet_v_1_fps_po_prazdnikam.apk">
+    Горилла прыгает в 1 фпс по праздникам<small>APK · 122 МБ</small>
+  </a>
+
+  <div class="meta">
+    <p>Запускается из PhoneXR. Нужны картонные очки и телефон на arm64 с камерой.</p>
+    <p>
+      <a href="https://github.com/samrat1games/Gorilla_jumping">Исходный код</a> ·
+      <a href="https://github.com/samrat1games/Gorilla_jumping/releases">Все версии</a>
+    </p>
+  </div>
+</main>
+</body>
+</html>
