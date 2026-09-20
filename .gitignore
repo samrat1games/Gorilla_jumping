@@ -1,0 +1,13 @@
+# Сборка
+build/
+app/build/
+app/.cxx/
+.gradle/
+.kotlin/
+local.properties
+
+# Локальные копии и мусор
+MobileXR_Orange/
+.DS_Store
+*.apk
+*.idsig
