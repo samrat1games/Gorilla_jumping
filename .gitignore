@@ -6,9 +6,6 @@ app/.cxx/
 .kotlin/
 local.properties
 
-# Модели Gorilla Tag: в репозиторий не кладём (чужие ассеты и 90 МБ)
-*.glb
-
 # Локальные копии и мусор
 MobileXR_Orange/
 .DS_Store
